@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 :root {
-    --white: #fffbfb;
-    --grey: #f0eef1;
+    --white: #3fbb1f;
+    --grey: #b0b3b1;
     --black: #050505;
     --red: #ff7070;
     --light-green: #9fff9c;
@@ -34,7 +35,7 @@
   body {
     background-color: var(--grey);
     color: var(--black);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 18px;
     font-weight: 500;
     word-wrap: break-word;
@@ -70,6 +71,8 @@
     padding: var(--spacing-sm) var(--spacing-md);
     border-radius: var(--border-radius);
     transition: filter 0.15s ease-in-out;
+    background-color: #121312;
+    color: white;
   }
   
   .btn:hover {

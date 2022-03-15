@@ -286,9 +286,12 @@ auth.onAuthStateChanged(async (user) => {
     setupNavbar(user)
 })
 
+
+
 const signIn = () => {
     const provider = new firebase.auth.GoogleAuthProvider()
     auth.signInWithPopup(provider)
+    
 }
 
 const signOut = () => {
